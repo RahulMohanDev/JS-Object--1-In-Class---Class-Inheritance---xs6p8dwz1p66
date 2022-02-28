@@ -2,7 +2,7 @@
 const Shape = require("./shape");
 // declare class
 class Circle extends Shape {
-  constructor(radius, color) {
+  constructor(radius = 4, color = "red") {
     super(color);
     this.radius = radius;
   }
