@@ -5,6 +5,9 @@ class Shape {
   }
   drawShape() {}
   calculateArea() {}
+  color() {
+    this.color = "red";
+  }
 }
 
 // export class using module.exports
